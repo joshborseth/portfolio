@@ -7,7 +7,7 @@ const App = () => {
       <h2 className="font-semibold text-2xl">Check out my Projects:</h2>
       <ul>
         <li className="text-xl">
-          <a className="hover:underline" href="https://www.joshborseth.com/">
+          <a className="hover:underline" href="https://www.jbmovies.joshborseth.com/">
             Movie Database with T3 Stack and TMDB API
           </a>
         </li>
