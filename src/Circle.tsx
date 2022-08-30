@@ -7,13 +7,20 @@ type circleProps = {
 
 const Circle = (props: circleProps) => {
   return (
-    <motion.div
+    <motion.a
       drag={true}
       dragConstraints={props.pageRef}
-      whileHover={{ scale: "1.5" }}
       dragElastic={false}
-      className="h-20 w-20 bg-white rounded-full cursor-pointer"
-    />
+      animate={{
+        scale: [1, 2, 2, 1, 1],
+        rotate: [0, 0, 270, 270, 0],
+        borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+      }}
+      className="h-2/3 w-2/3 bg-white rounded-xl cursor-pointer text-zinc-900 flex justify-center items-center text-2xl font-bold"
+      href="https://github.com/joshborseth"
+    >
+      GitHub
+    </motion.a>
   );
 };
 
