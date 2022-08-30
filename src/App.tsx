@@ -1,4 +1,9 @@
+import { useRef } from "react";
+import Circle from "./Circle";
+
 const App = () => {
+  const pageRef = useRef(null);
+  if (!pageRef) return;
   return (
     <div className="h-screen w-screen flex flex-col gap-5 justify-start items-center text-center p-20">
       <h1 className="font-bold text-5xl">Joshua Borseth</h1>
@@ -10,6 +15,10 @@ const App = () => {
           </a>
         </li>
       </ul>
+
+      <div className="h-80 w-80 bg-zinc-800 m-20 flex justify-center items-center rounded-xl" ref={pageRef}>
+        <Circle pageRef={pageRef} />
+      </div>
     </div>
   );
 };
