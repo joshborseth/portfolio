@@ -8,7 +8,7 @@ const App = () => {
           <a className="btn-secondary btn-lg btn" href="https://github.com/joshborseth">
             Github
           </a>
-          <a className="btn-accent btn-lg btn" href="https://github.com/joshborseth">
+          <a className="btn-accent btn-lg btn" href="https://jbmovies.joshborseth.com/">
             Movie DB Project
           </a>
         </div>
