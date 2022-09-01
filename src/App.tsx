@@ -4,7 +4,7 @@ const App = () => {
       <div className="flex flex-col justify-center items-center gap-10">
         <h1 className="text-7xl font-bold">Joshua Borseth</h1>
         <p className="text-2xl max-w-md">A Frontend Developer with a passion for finding practical solutions to everyday problems.</p>
-        <div className="flex justify-center gap-5">
+        <div className="flex flex-col md:flex-row justify-center gap-5">
           <a className="btn-secondary btn-lg btn" href="https://github.com/joshborseth">
             Github
           </a>
