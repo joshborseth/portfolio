@@ -11,7 +11,7 @@ const App = () => {
           <a className="btn-accent btn-lg btn" href="https://jbmovies.joshborseth.com/">
             Movie DB Project
           </a>
-          <a className="btn-accent btn-lg btn" href="https://questions.joshborseth.com/">
+          <a className="btn-primary btn-lg btn" href="https://questions.joshborseth.com/">
             Questions App
           </a>
         </div>
