@@ -10,7 +10,7 @@ const App = () => {
   }, []);
   return (
     <div
-      className={`h-screen w-screen flex flex-col justify-center items-center text-center p-10 transition-opacity duration-500 ${
+      className={`h-screen w-screen flex flex-col justify-center items-center text-center px-10 transition-opacity duration-500 ${
         fade ? "opacity-100" : "opacity-0"
       }`}
     >
@@ -23,9 +23,6 @@ const App = () => {
           </a>
           <a className="btn-accent btn-lg btn" href="https://jbmovies.joshborseth.com/">
             Movie DB Project
-          </a>
-          <a className="btn-primary btn-lg btn" href="https://questions.joshborseth.com/">
-            Questions App
           </a>
         </div>
       </div>
